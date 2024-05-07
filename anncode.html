@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anncode Solutions</title>
     <link rel="stylesheet" href="anncode.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Add Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <!-- Add Slick Slider theme CSS (optional) -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
 
 </head>
 
@@ -39,12 +50,20 @@
                     <li><a class="active" href="#" class="active">Home</a></li>
                     <li><a href="https://discountly.anncode.com" target="_blank">Discountly</a></li>
                     <li><a href="https://appcraftly.anncode.com" target="_blank">AppCraftly</a></li>
-                    <li><a href="#">Company</a></li>
+                    <li class="dropdown"><a href="#">Company</a>
+                        <div class="dropdown-content">
+                            <!-- Dropdown content here -->
+                            <a href="#">Contact</a>
+                            <a href="#">About us</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Become a Partner</a>
+                        </div>
+                    </li>
                     <li><a href="#Our-Apps">Our Apps</a></li>
                     <li><a href="#">Partner App</a></li>
                     <!-- <div class="req-btn">
-                        <a href="#"><button>Request a demo</button></a>
-                    </div> -->
+                            <a href="#"><button>Request a demo</button></a>
+                        </div> -->
                 </ul>
             </nav>
         </div>
@@ -53,6 +72,25 @@
 
     <main>
         <section class="main-container">
+
+            <div class="home-container">
+                <div class="left">
+                    <div class="content-container">
+                        <h1 class="p-heading">Get things done<br>with Anncode</h1>
+                        <p>Dorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusm tempor
+                            incididunt
+                            ulabore et dolore magna aliqua.</p>
+                        <div class="slider-btns">
+                            <a href="#" class="btn radius-btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="image-container">
+                        <img src="Screenshot_2024-05-07_180603-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
             <!-- <div class="slide">
                 <div class="home-container">
                     <div class="left">
@@ -73,7 +111,7 @@
                 </div>
             </div> -->
 
-            <div class="swiper mySwiper">
+            <!-- <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="home-container">
@@ -119,10 +157,10 @@
                     <div class="swiper-slide">Slide 4</div>
 
                 </div>
-                <!-- <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
-            </div>
+            </div> -->
         </section>
 
 
@@ -134,11 +172,12 @@
                         <div class="services-caption">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Public Shopify app development
-                                </a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                    </a></h4>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -146,11 +185,12 @@
                         <div class="services-caption active">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Custom Shopify app development
-                                </a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                    </a></h4>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -158,10 +198,11 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Headless Shopify development</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -169,11 +210,12 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Shopify app maintenance & support
-                                </a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                    </a></h4>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -181,10 +223,11 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Third-party app integrations</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -192,10 +235,11 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Creative UI/UX design</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -203,10 +247,11 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Third-party app integrations</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -214,10 +259,11 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Third-party app integrations</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -225,10 +271,11 @@
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
                                 <span class="flaticon-businessman"></span>
-                            </div> 
+                            </div>
                             <div class="service-cap">
                                 <h4><a href="#">Third-party app integrations</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut
+                                    laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -239,25 +286,198 @@
         <section class="reviews-page">
             <div class="contaienr">
                 <h1 class="p-heading h-t-b-padding">What Our Customers<br> Have to Say</h1>
-                <div class="reviews-wrapper">
-                    
+                <div class="review-slider">
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="card">
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
         </section>
         <section class="our-apps-page">
+            <h1 class="p-heading h-t-b-padding">Our Apps</h1>
             <div class="container">
                 <div class="left">
-
+                    <div class="single-cases-info">
+                        <h3 class="app-heading">Discountly App</h3>
+                        <p style="text-align: left;">Lorem ipsum dolor sit amet, consecadipiscing elit, sed do eiusmod tempor incididunt ut ore et
+                            dolore magna aliqua. Quis ipsum suspendisse gravida. Risus commodo viverra maecenasan lacus
+                            vel facilisis. </p>
+                    </div>
                 </div>
                 <div class="right">
-                    
+                    <div class="features-img">
+                        <div class="image">
+                            <img src="BOGO.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="buy X get Y discount.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="cost and margin.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="countdown timer.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="customer group discount.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="customized discount.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container margin-top">
+                <div class="left">
+                    <div class="single-cases-info">
+                        <h3 class="app-heading">AppCraftly</h3>
+                        <p style="text-align: left;">Lorem ipsum dolor sit amet, consecadipiscing elit, sed do eiusmod tempor incididunt ut ore et
+                            dolore magna aliqua. Quis ipsum suspendisse gravida. Risus commodo viverra maecenasan lacus
+                            vel facilisis. </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="features-img">
+                        <div class="image">
+                            <img src="BOGO.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="buy X get Y discount.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="cost and margin.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="countdown timer.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="customer group discount.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="customized discount.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <div class="logos-container">
+            <h1 class="p-heading h-t-b-padding">Our Partners</h1>
+            <section class="customer-logos slider">
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+                <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+
+            </section>
+        </div>
     </main>
 
 
+    <footer>
+        <div class="footer-main">
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-f">
+                            <div class="footer-caption">
+                                <!-- logo -->
+                                <div class="logo-container">
+                                    <a href="#">
+                                        <img src="https://anncode.com/wp-content/themes/creativ-singer/assets/images/company-logo.png"
+                                            alt="Anncode Solutions logo">
+                                    </a>
+                                    <span class="logo-name">Anncode</span>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+                                            eiusmod tempor incididunt ut labore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="footer-caption">
+                                <div class="footer-tittle">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Features</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Download</a></li>
+                                        <li><a href="#">Reviews</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="footer-caption">
+                                <div>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                                        <li><a href="#"><i class="ri-whatsapp-fill"></i></a></li>
+                                        <li><a href="#"><i class="ri-telegram-fill"></i></a></li>
+                                        <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copy-Right -->
+            <div class="footer-copy-right">
+                <p>Copyright ©2024 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Add Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="anncode.js"></script>
 </body>
